@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: rgb(88, 3, 105);
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  display: inline-block;
+  margin: 50px;
+  border: 10px solid black;
+}
+
+.a {
+  background-color: yellow;
+}
+.b {
+  background-color: green;
+}
+
+.c {
+  background-color: red;
+}
+
+.d {
+  background-color: rgb(42, 151, 165);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+p {
+  font-family: cursive;
+  font-size: 1.25rem;
+  color: rgb(162, 164, 196);
+  margin: 5rem;
+}
